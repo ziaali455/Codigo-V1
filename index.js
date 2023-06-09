@@ -9,7 +9,7 @@ const app = new App({
     signingSecret: signingSecret,
     token: botToken,
 });
-
+ 
 
 const config = new Configuration({
   apiKey: process.env['API_KEY'],
